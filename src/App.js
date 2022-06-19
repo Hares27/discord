@@ -10,15 +10,20 @@ export default function App() {
   const user=useSelector((state)=>state.user.user);
   return (
     <div className="app">
+       <Sidebar/>
+        <Feed/>
 
-      {user?(
+
+
+
+      {/* {user?(
         <>
         <Sidebar/>
         <Feed/>
         </>
 
       ):(<h2> <Login/>
-        </h2>)}
+        </h2>)} */}
 
       
     </div>
