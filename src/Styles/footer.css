@@ -1,0 +1,24 @@
+.footer
+{
+  display: flex;
+  align-items: center;
+  background-color: rgb(70, 69, 73);
+  color: gray;
+  width:100%;
+  border-radius: 3px;
+  padding:10px;
+}
+
+.footer > input{
+  background-color: transparent;
+  border:none;
+  outline-width: 0;
+ 
+  flex:1;
+  font-size: large;
+  color: gray;
+}
+.footer-right > .MuiSvgIcon-root
+{
+  padding:5px;
+}
